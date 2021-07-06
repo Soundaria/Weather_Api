@@ -1,20 +1,25 @@
 ul {
     justify-content: center;
     text-align: center;
-    color:cornflowerblue;
+    color:burlywood;
     font-family: cursive;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: bold;
     display: flex;
     list-style: none;
+    position:relative;
+    letter-spacing: 7px;
+    padding-left: 0px;
 }
+
 li{
     animation: move 0.5s infinite;
 }
 
 @keyframes move{
-    25%{
-        transform: rotate(5deg);
-        color: blueviolet;  
+        25%{
+           transform: rotate(5deg);
+            color:cyan;  
     }
 }
 ul li:nth-child(1){
@@ -63,5 +68,64 @@ ul li:nth-child(15){
     animation-delay: 0.15s;
 }
 
-
-
+#button{
+    height: 40px;
+    width:10rem;
+    background-color:burlywood;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+#button:hover{
+    background-color:bisque;
+    color: chocolate;
+}
+#label{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+#city{
+    font-family:'Times New Roman', Times, serif;
+    width: 15rem;
+    height: 2rem;
+    font-size:large;
+    padding-left: 10px;
+    margin-left: 2rem;
+    margin-top: 10px;
+}
+.card{
+    width:20rem;
+    height: 15rem;
+    margin-left: 1rem;
+    margin-top: 7rem;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px black;
+    background-color:seashell;
+}
+#result{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    font-size:2.5rem;
+    margin-top: 4rem;
+    color:darkcyan;
+    text-decoration: overline underline 5px;
+    text-underline-offset: 15px;
+}
+#temp{
+    text-align: left;
+    font-size: 1.7rem;
+    font-family: cursive;
+    color:darkblue;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    line-height:4rem;
+    
+}
