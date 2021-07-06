@@ -20,5 +20,4 @@ async function weather(){
     else if(temp>=20){
         document.getElementById("sunny").style.display="block";
     }
-
 }
