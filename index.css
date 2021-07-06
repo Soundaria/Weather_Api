@@ -2,72 +2,29 @@ ul {
     justify-content: center;
     text-align: center;
     color:burlywood;
-    font-family: cursive;
-    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
     font-weight: bold;
     display: flex;
     list-style: none;
     position:relative;
-    letter-spacing: 7px;
     padding-left: 0px;
 }
-
 li{
-    animation: move 0.5s infinite;
+    animation: move 5s infinite;
 }
-
 @keyframes move{
         25%{
-           transform: rotate(5deg);
-            color:cyan;  
+        color:aquamarine;  
     }
-}
-ul li:nth-child(1){
-    animation-delay: 0.1s;
-}
-ul li:nth-child(2){
-    animation-delay: 0.2s;
-}
-ul li:nth-child(3){
-    animation-delay: 0.3s;
-}
-ul li:nth-child(4){
-    animation-delay: 0.4s;
-}
-ul li:nth-child(5){
-    animation-delay: 0.5s;
-}
-ul li:nth-child(6){
-    animation-delay: 0.6s;
-}
-ul li:nth-child(7){
-    animation-delay: 0.7s;
-}
-ul li:nth-child(8){
-    animation-delay: 0.8s;
-}
-ul li:nth-child(9){
-    animation-delay: 0.9s;
-}
-ul li:nth-child(10){
-    animation-delay: 0.1ms;
-}
-ul li:nth-child(11){
-    animation-delay: 0.11s;
-}
-ul li:nth-child(12){
-    animation-delay: 0.1ms;
-}
-ul li:nth-child(13){
-    animation-delay: 0.13s;
-}
-ul li:nth-child(14){
-    animation-delay: 0.1ms;
-}
-ul li:nth-child(15){
-    animation-delay: 0.15s;
-}
+    50%{
+        color:brown;
+    }
+    75%{
+        color:blueviolet;
 
+        }
+    }
 #button{
     height: 40px;
     width:10rem;
@@ -125,7 +82,169 @@ ul li:nth-child(15){
     color:darkblue;
     justify-content: center;
     padding-top: 4rem;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     line-height:4rem;
     
+}
+
+.sunny{
+    margin-top: -37rem;
+    margin-left: 60rem;
+    position: fixed;
+}
+.tree{
+    position:fixed;
+    margin-left: 60rem;
+    margin-top: -10rem;
+}
+
+.plant{
+    margin-top:-9rem;
+    margin-left: 2rem;
+    position: fixed;
+}
+
+@media only screen and (min-width:500px) {
+    #temp{
+        padding-left: 3rem;
+    }
+    .card{
+        width:25rem;
+        margin-left: 3rem;
+    }
+    ul {
+      letter-spacing: 10px;
+    }
+    #city{
+        width:20rem;
+    }
+    .plant{
+        display: none;
+    }
+}
+@media only screen and (min-width:600px){
+    .card{
+       
+        margin-left: 7.5rem;
+    }
+    .plant{
+        display: none;
+    }
+}
+@media only screen and (min-width:700px) {
+    #temp{
+        padding-left: 5rem;
+    }
+    .card{
+        width:35rem;
+        margin-left: 6rem;
+    }
+    ul {
+      letter-spacing: 10px;
+    }
+    #city{
+        width:20rem;
+    }
+    .plant{
+        display: none;
+    }
+}
+@media only screen and (min-width:800px) {
+    #temp{
+        padding-left: 5rem;
+    }
+    .card{
+        width:45rem;
+        margin-left: 2rem;
+    }
+    ul {
+      letter-spacing: 10px;
+    }
+    #city{
+        width:40rem;
+    }
+    .plant{
+        display: none;
+    }
+    .sunny{
+        margin-left: 35rem;
+    }
+    .tree{
+        margin-left:30rem;
+    }
+}
+@media only screen and (min-width:900px) {
+    #temp{
+        padding-left: 5rem;
+    }
+    .card{
+        width:45rem;
+        margin-left: 6rem;
+    }
+    ul {
+      letter-spacing: 10px;
+    }
+    #city{
+        width:40rem;
+    }
+    .tree{
+        margin-left: 35rem;
+      }
+    .sunny{
+        margin-left: 45rem;
+     }
+    .plant{
+        display:none;
+    }
+    
+}
+@media only screen and (min-width:1000px) {
+    #temp{
+        padding-left: 25rem;
+    }
+    .card{
+        width:65rem;
+        margin-left: 10rem;
+    }
+    ul {
+      letter-spacing: 10px;
+    }
+    #city{
+        width:40rem;
+    }
+    .tree{
+      margin-left: 50rem;
+    }
+    .sunny{
+       margin-left: 50rem;
+   }
+   .plant{
+       display: block;
+   }
+}
+
+
+@media only screen and (min-width:1200px) {
+    #temp{
+        padding-left: 30rem;
+    }
+    .card{
+        width:45rem;
+        margin-left: 25rem;
+    }
+    ul {
+      letter-spacing: 15px;
+    }
+    #city{
+        width:40rem;
+    }
+    .tree{
+        margin-left: 60rem;
+      }
+     .sunny{
+         margin-left: 65rem;
+     }
+    .plant{
+        display:block;
+    }
 }
