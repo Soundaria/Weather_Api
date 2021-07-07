@@ -66,14 +66,14 @@ li{
 }
 #result{
     text-align: center;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-style: italic;
     font-size:2.5rem;
     margin-top: 4rem;
     color:darkcyan;
     text-decoration: overline underline 5px;
-    text-underline-offset: 15px;
+    text-underline-offset: 10px;
 }
 #temp{
     text-align: left;
@@ -106,14 +106,15 @@ li{
 
 @media only screen and (min-width:300px) {
     #temp{
-        padding-left: 3rem;
+        padding-left: 2rem;
     }
     .card{
-        width:25rem;
-        margin-left: 3rem;
+        width:23rem;
+        margin-left: 1rem;
     }
-    ul {
-      letter-spacing: 10px;
+    #result{
+        font-size:2rem;
+       
     }
     #city{
         width:20rem;
@@ -122,7 +123,8 @@ li{
         display: none;
     }
     .sunny{
-        margin-left: 19rem;
+        margin-left: 18rem;
+        width:200px;
     }
 }
 @media only screen and (min-width:500px) {
@@ -222,6 +224,7 @@ li{
       }
     .sunny{
         margin-left: 45rem;
+        width: 300px;
      }
     .plant{
         display:none;
