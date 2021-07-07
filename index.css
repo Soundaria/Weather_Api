@@ -104,6 +104,27 @@ li{
     position: fixed;
 }
 
+@media only screen and (min-width:300px) {
+    #temp{
+        padding-left: 3rem;
+    }
+    .card{
+        width:25rem;
+        margin-left: 3rem;
+    }
+    ul {
+      letter-spacing: 10px;
+    }
+    #city{
+        width:20rem;
+    }
+    .plant{
+        display: none;
+    }
+    .sunny{
+        margin-left: 19rem;
+    }
+}
 @media only screen and (min-width:500px) {
     #temp{
         padding-left: 3rem;
@@ -121,6 +142,9 @@ li{
     .plant{
         display: none;
     }
+    .sunny{
+        margin-left: 20rem;
+    }
 }
 @media only screen and (min-width:600px){
     .card{
@@ -129,6 +153,9 @@ li{
     }
     .plant{
         display: none;
+    }
+    .sunny{
+        margin-left: 25rem;
     }
 }
 @media only screen and (min-width:700px) {
@@ -147,6 +174,9 @@ li{
     }
     .plant{
         display: none;
+    }
+    .sunny{
+        margin-left: 30rem;
     }
 }
 @media only screen and (min-width:800px) {
