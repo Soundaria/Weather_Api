@@ -109,7 +109,7 @@ li{
         padding-left: 2rem;
     }
     .card{
-        width:23rem;
+        width:18rem;
         margin-left: 1rem;
     }
     #result{
@@ -117,7 +117,30 @@ li{
        
     }
     #city{
-        width:20rem;
+        width:15rem;
+    }
+    .plant{
+        display: none;
+    }
+    .sunny{
+        margin-left: 18rem;
+        width:200px;
+    }
+}
+@media only screen and (min-width:400px) {
+    #temp{
+        padding-left: 0rem;
+    }
+    .card{
+        width:22rem;
+        margin-left: 1rem;
+    }
+    #result{
+        font-size:2rem;
+       
+    }
+    #city{
+        width:15rem;
     }
     .plant{
         display: none;
