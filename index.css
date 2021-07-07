@@ -110,7 +110,7 @@ li{
     }
     .card{
         width:18rem;
-        margin-left: 1rem;
+        margin-left: 2.5rem;
     }
     #result{
         font-size:2rem;
@@ -123,8 +123,9 @@ li{
         display: none;
     }
     .sunny{
-        margin-left: 18rem;
-        width:200px;
+        margin-top: -40rem;
+        margin-left: 17rem;
+        width:150px;
     }
 }
 @media only screen and (min-width:400px) {
@@ -148,6 +149,7 @@ li{
     .sunny{
         margin-left: 18rem;
         width:200px;
+        margin-top: -37rem;
     }
 }
 @media only screen and (min-width:500px) {
@@ -168,7 +170,8 @@ li{
         display: none;
     }
     .sunny{
-        margin-left: 20rem;
+        margin-left: 25rem;
+        margin-top: -37rem;
     }
 }
 @media only screen and (min-width:600px){
@@ -180,7 +183,8 @@ li{
         display: none;
     }
     .sunny{
-        margin-left: 25rem;
+        margin-left: 30rem;
+        margin-top: -37rem;
     }
 }
 @media only screen and (min-width:700px) {
@@ -201,7 +205,8 @@ li{
         display: none;
     }
     .sunny{
-        margin-left: 30rem;
+        margin-left: 35rem;
+        margin-top: -37rem;
     }
 }
 @media only screen and (min-width:800px) {
@@ -222,7 +227,8 @@ li{
         display: none;
     }
     .sunny{
-        margin-left: 35rem;
+        margin-left: 40rem;
+        margin-top: -37rem;
     }
     .tree{
         margin-left:30rem;
@@ -248,6 +254,7 @@ li{
     .sunny{
         margin-left: 45rem;
         width: 300px;
+        margin-top: -37rem;
      }
     .plant{
         display:none;
@@ -273,12 +280,38 @@ li{
     }
     .sunny{
        margin-left: 50rem;
+       margin-top: -37rem;
    }
    .plant{
        display: block;
    }
 }
-
+@media only screen and (min-width:1100px) {
+    #temp{
+        padding-left: 30rem;
+    }
+    .card{
+        width:40rem;
+        margin-left: 15rem;
+    }
+    ul {
+      letter-spacing: 15px;
+      
+    }
+    #city{
+        width:35rem;
+    }
+    .tree{
+        margin-left: 55rem;
+      }
+     .sunny{
+        margin-left: 55rem;
+        margin-top: -37rem;
+     }
+    .plant{
+        display:block;
+    }
+}
 
 @media only screen and (min-width:1200px) {
     #temp{
@@ -290,6 +323,7 @@ li{
     }
     ul {
       letter-spacing: 15px;
+      
     }
     #city{
         width:40rem;
@@ -299,6 +333,7 @@ li{
       }
      .sunny{
          margin-left: 65rem;
+         margin-top: -37rem;
      }
     .plant{
         display:block;
